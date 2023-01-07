@@ -16,9 +16,9 @@ export default function App() {
   // removed once that functionality is proven.
   useEffect(() => {
     getShoppingListItems().then((items) => {
-      console.log('items', items)
-    })
-  }, [])
+      console.info('items', items);
+    });
+  }, []);
   return (
     <Router>
       <Routes>
