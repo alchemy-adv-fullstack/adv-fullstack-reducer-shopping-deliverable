@@ -8,6 +8,9 @@ https://github.com/alchemy-adv-fullstack/adv-fullstack-reducer-demo/
 
 Use this repository as a template to get started.
 
+If viewing from Canvas:
+https://github.com/alchemy-adv-fullstack/adv-fullstack-reducer-shopping-deliverable/
+
 ## Learning Objectives
 
 1. Use reducers to manage state.
@@ -18,10 +21,12 @@ Use this repository as a template to get started.
 
 ## Description
 
-This is a retake on an old shopping list application. We need a means of adding
-shopping items to a shopping list, editing the shopping items, completing the
-shopping items, and deleting shopping items from the shopping list.
+This is a retake on an old shopping list application. We need a means of:
 
+1. Adding shopping items to a shopping list.
+2. Editing the shopping items.
+3. Completing the shopping items.
+4. Deleting shopping items from the shopping list.
 
 ## Acceptance Criteria
 
