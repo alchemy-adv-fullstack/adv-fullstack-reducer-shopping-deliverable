@@ -9,6 +9,7 @@ import Layout from './Page/Layout.jsx';
 import './Design.css';
 import ShoppingListPage from './Page/ShoppingListPage.jsx';
 import { getShoppingListItems } from '../services/shopping-list-items.js';
+import CounterPage from './Page/CounterPage.jsx';
 
 export default function App() {
   // This is just to prove we actually can get some items from Supabase without
@@ -23,6 +24,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route element={<Layout />}>
+          <Route path="/counter" element={<CounterPage />} />
           <Route index element={<ShoppingListPage />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
