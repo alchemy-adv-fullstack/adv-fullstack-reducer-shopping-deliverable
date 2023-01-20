@@ -48,5 +48,5 @@ This is a retake on an old shopping list application. We need a means of:
 | Deployed on netlify with CI passing                       | 2      |
 
 [^1]: Unit testing will include a unit test of reducers for adding to shopping
-list, deleting from shopping list, editing a shopping list item, and retrieving
-a shopping list of items
+      list, deleting from shopping list, editing a shopping list item, and
+      retrieving a shopping list of items.
